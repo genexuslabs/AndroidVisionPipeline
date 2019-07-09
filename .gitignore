@@ -1,12 +1,11 @@
 *.iml
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.idea
 .DS_Store
+._*
+/local.properties
 /build
 /captures
 .externalNativeBuild
 mobilevision-pipeline/build
 sample/build
-.idea
