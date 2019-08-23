@@ -7,7 +7,6 @@ group = "com.genexus"
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 19
@@ -28,7 +27,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    compileOnly 'com.google.android.gms:play-services-basement:17.0.0'
+    compileOnly 'com.google.android.gms:play-services-basement:17.1.0'
     compileOnly 'com.google.android.gms:play-services-vision:18.0.0'
     testImplementation 'junit:junit:4.12'
 }
